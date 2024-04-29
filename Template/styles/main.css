@@ -71,6 +71,9 @@ a:hover, a:focus {
 #nav-menu ul li:hover > ul li {
     border-top: 1px solid white;
 }
+#nav-menu ul li a:hover {
+    background-color: rgb(96, 231, 231);
+}
 #nav-menu > ul::after {
     content: "";
     display: block;

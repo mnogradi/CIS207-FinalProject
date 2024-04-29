@@ -24,9 +24,10 @@ header {
     height: 90px;
 }
 #page-icon {
+    font-family: "Aref Ruqaa Ink";
     font-size: 2.5em;
-    color:rgb(255,255,255);
-    text-shadow: 2px 2px 2px #141111;
+    color:whitesmoke;
+    text-shadow: 2px 2px 2px black;
 }
 #head-subtext {
     padding: 10px;

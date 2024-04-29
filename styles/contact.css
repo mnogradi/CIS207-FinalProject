@@ -29,6 +29,7 @@ header {
     text-shadow: 2px 2px 2px #141111;
 }
 #head-subtext {
+    padding: 10px;
     font-size: 1.1em;
     color:rgb(224, 216, 216);
     margin-left: 20%
@@ -69,6 +70,12 @@ a:hover, a:focus {
 }
 #nav-menu ul li:hover > ul li {
     border-top: 1px solid white;
+}
+#nav-menu ul li a:hover {
+    background-color: rgb(96, 231, 231);
+}
+#nav-menu ul li a:visited {
+    color: grey;
 }
 #nav-menu > ul::after {
     content: "";

@@ -29,6 +29,7 @@ header {
     text-shadow: 2px 2px 2px #141111;
 }
 #head-subtext {
+    padding: 10px;
     font-size: 1.1em;
     color:rgb(224, 216, 216);
     margin-left: 20%

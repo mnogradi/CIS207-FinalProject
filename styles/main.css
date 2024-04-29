@@ -14,7 +14,7 @@ body {
     width: 1200px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     margin: 0 auto;
     border: 1px solid rgb(22, 21, 21);
 }
@@ -24,11 +24,13 @@ header {
     height: 90px;
 }
 #page-icon {
+    font-family: "Aref Ruqaa Ink";
     font-size: 2.5em;
-    color:rgb(255,255,255);
-    text-shadow: 2px 2px 2px #141111;
+    color:whitesmoke;
+    text-shadow: 2px 2px 2px black;
 }
 #head-subtext {
+    padding: 10px;
     font-size: 1.1em;
     color:rgb(224, 216, 216);
     margin-left: 20%
@@ -70,6 +72,12 @@ a:hover, a:focus {
 #nav-menu ul li:hover > ul li {
     border-top: 1px solid white;
 }
+#nav-menu ul li a:hover {
+    background-color: rgb(96, 231, 231);
+}
+#nav-menu ul li a:visited {
+    color: grey;
+}
 #nav-menu > ul::after {
     content: "";
     display: block;
@@ -78,10 +86,26 @@ a:hover, a:focus {
 #lastitem {
     border-right: none;
 }
-main {
-    padding: 15px;
+main{
+    font: 87.5% Arial, Helvetica, sans-serif;
+    width: 700px;
+    height: 250px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid blue;
+    background-color: aquamarine;
+    border-radius: 20px;
 }
-
+main h1 {
+    font-size: 315%;
+    padding: 20px;
+    margin-top: 65px;
+    margin-left: 28px;
+}
+main p {
+    margin-left: 6.5em;
+    font-size: 175%;
+}
 .footer {
     background-color: rgb(62,135,237);
     clear: both;

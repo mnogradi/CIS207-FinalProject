@@ -17,6 +17,12 @@ header {
     background-color: rgb(62, 135, 237);
     padding: 15px;
     height: 90px;
+    border-bottom: 2px solid darkblue;
+}
+#header-logo {
+    width: 100px;
+    float: left;
+    padding-right: 25px;
 }
 #page-icon {
     font-family: "Aref Ruqaa Ink";
@@ -101,17 +107,14 @@ div {
 }
 div img {
     float: left;
-    width: 75px;
-    height: 75px;
+    width: 115px;
+    height: 115px;
     padding: 15px;
-    margin: 8px;
-    margin-right: 15px;
-    background-color: rgb(38, 193, 250);
-    border: 1px solid rgb(54, 237, 72);
-    border-radius: 50px;
+    text-align: center;
+    border-radius: 190px;
 }
 div h3 {
-    padding: 50px;
+    padding: 55px;
     font-size: 150%;
 }
 div p {

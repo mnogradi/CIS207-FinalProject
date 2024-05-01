@@ -113,6 +113,9 @@ main p {
     width:  275px;
     height: 275px;
 }
+#mainTitle {
+    text-align: center;
+}
 .column {
     float: left;
     width: 50%;

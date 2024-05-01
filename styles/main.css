@@ -77,8 +77,8 @@ a:hover, a:focus {
 #nav-menu ul li a:hover {
     background-color: rgb(96, 231, 231);
 }
-#nav-menu ul li a:visited {
-    color: grey;
+#nav-menu a.current {
+    color: rgb(28, 143, 163);
 }
 #nav-menu > ul::after {
     content: "";

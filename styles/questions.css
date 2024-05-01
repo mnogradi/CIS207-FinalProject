@@ -17,6 +17,12 @@ header {
     background-color: rgb(62, 135, 237);
     padding: 15px;
     height: 90px;
+    border-bottom: 2px solid darkblue;
+}
+#header-logo {
+    width: 100px;
+    float: left;
+    padding-right: 25px;
 }
 #page-icon {
     font-family: "Aref Ruqaa Ink";
@@ -100,12 +106,18 @@ div {
 }
 div h3 {
     float: left;
-    width: 300px;
+    width: 380px;
     padding: 15px;
     margin: 8px;
     background-color: rgb(38, 193, 250);
     border: 1px solid rgb(54, 237, 72);
     border-radius: 10px;
+}
+.q1 {
+    padding: 6px;
+}
+.q4 {
+    padding: 15px;
 }
 div p {
     padding: 25px;

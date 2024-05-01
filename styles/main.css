@@ -108,7 +108,10 @@ main p {
     margin-left: 6.5em;
     font-size: 175%;
 }
-
+#rightcouples {
+    display: inline-block;
+    float: right;
+}
 #singles-image {
     width:  275px;
     height: 275px;

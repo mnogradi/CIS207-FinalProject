@@ -114,6 +114,7 @@ main p {
     height: 275px;
 }
 #mainTitle {
+    margin: 0;
     text-align: center;
 }
 .column {

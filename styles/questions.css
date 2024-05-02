@@ -9,7 +9,7 @@ body {
     width: 1200px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(5, 218, 125);
     margin: 0 auto;
     border: 1px solid rgb(22, 21, 21);
 }
@@ -37,7 +37,7 @@ header {
     margin-left: 20%
 }
 a {
-    color:  rgb(33, 154, 175);
+    color:  rgb(52, 122, 250);
 }
 a:visited {
     color:blue;
@@ -94,33 +94,28 @@ main h2 {
     padding: 10px;
     margin-bottom: 15px;
 }
-div {
-    margin-left: 80px;
-    width: 1000px;
+div a {
+    text-decoration: none;
+}
+div h3 {
     padding: 15px;
-    height: 100px;
-    border: 1px solid rgb(54, 237, 72);
-    background-color:#bcf7d9;
+    width: 600px;
+    background-color:#4ef9a1;
     box-sizing: border-box;
     border-radius: 10px;
 }
-div h3 {
-    float: left;
-    width: 380px;
-    padding: 15px;
-    margin: 8px;
-    background-color: rgb(38, 193, 250);
-    border: 1px solid rgb(54, 237, 72);
-    border-radius: 10px;
+div {
+    padding-top: 10px;
+    width: 600px;
+    margin-left: 25px;
 }
-.q1 {
-    padding: 6px;
+#accordion div {
+    overflow: hidden;
+    height: 0;
+    transition: height 1s ease-in-out;
 }
-.q4 {
-    padding: 15px;
-}
-div p {
-    padding: 25px;
+#accordion div:target {
+    height: 100px;
 }
 .footer {
     background-color: rgb(62,135,237);

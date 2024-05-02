@@ -38,7 +38,8 @@ header {
 }
 a {
     color:  rgb(52, 122, 250);
-}   
+}
+  
 a:hover, a:focus {
     color: rgb(17, 94, 10);
 }
@@ -91,29 +92,51 @@ main h2 {
     padding: 10px;
     margin-bottom: 15px;
 }
-div a {
-    text-decoration: none;
-}
-div h3 {
-    padding: 15px;
+
+#panel, #flip {
     width: 600px;
-    background-color:#4ef9a1;
-    box-sizing: border-box;
-    border-radius: 10px;
+    margin-left: 275px;
+    padding: 20px;
+    text-align: center;
+    background-color: #2dd0ec;
+    border: 1px solid darkblue;
 }
-div {
-    padding-top: 10px;
+#panel {   
+    display: none;
+}
+#panel2, #flip2 {
     width: 600px;
-    margin-left: 25px;
+    margin-left: 275px;
+    padding: 20px;
+    text-align: center;
+    background-color: #2dd0ec;
+    border: 1px solid darkblue;
 }
-#accordion div {
-    overflow: hidden;
-    height: 0;
-    transition: height 1s ease-in-out;
+#panel2 {   
+    display: none;
 }
-#accordion div:target {
-    height: 100px;
+#panel3, #flip3 {
+    width: 600px;
+    margin-left: 275px;
+    padding: 20px;
+    text-align: center;
+    background-color: #2dd0ec;
+    border: 1px solid darkblue;
 }
+#panel3 {   
+    display: none;
+}
+#panel4, #flip4 {
+    width: 600px;
+    margin-left: 275px;
+    padding: 20px;
+    text-align: center;
+    background-color: #2dd0ec;
+    border: 1px solid darkblue;
+}
+#panel4 {   
+    display: none;
+  }
 .footer {
     background-color: rgb(62,135,237);
     clear: both;

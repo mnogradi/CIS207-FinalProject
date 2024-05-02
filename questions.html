@@ -3,6 +3,29 @@
 <head>
     <meta charset="utf-8" />
     <title>FAQ</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script> 
+    $(document).ready(function(){
+        $("#flip").click(function(){
+            $("#panel").slideToggle("slow");
+        });
+    });
+    $(document).ready(function(){
+        $("#flip2").click(function(){
+            $("#panel2").slideToggle("slow");
+        });
+    });
+    $(document).ready(function(){
+        $("#flip3").click(function(){
+            $("#panel3").slideToggle("slow");
+        });
+    });
+    $(document).ready(function(){
+        $("#flip4").click(function(){
+            $("#panel4").slideToggle("slow");
+        });
+    });
+</script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aref Ruqaa Ink">
     <link rel="stylesheet" href="styles/questions.css">
 </head>
@@ -30,16 +53,14 @@
     </nav>
     <main>
         <h2>Frequently Asked Questions</h2>
-        <div id="accordion">
-            <h3><a href="#Q1">How big is North Alabama?</a></h3>
-            <div id="Q1">Pretty big! North Alabama is made up of these counties: Blount, Cherokee, Colbert, Cullman, DeKalb, Etowah, Franklin, Jackson, Lauderdale, Lawrence, Limestone, Madison, Marion, Marshall, Morgan, Winston</div>
-            <h3><a href="#Q2">What's the largest city in North Alabama?</a></h3>
-            <div id="Q2">Huntsville, Alabama is the largest city in North Alabama.</div>
-            <h3><a href="#Q3">What is the state nickname?</a></h3>
-            <div id="Q3">The nickname for Alabama is 'Heart of Dixie'.</div>
-            <h3><a href="#Q4">Why is Huntsville known for?</a></h3>
-            <div id="Q4">The U. S. Space and Rocket Center. It isn't called the "Rocket City" for nothing!</p>
-        </div><br>
+        <div id="flip">Question: How big is North Alabama?</div>
+        <div id="panel">Answer: Pretty big! North Alabama is made up of these counties: Blount, Cherokee, Colbert, Cullman, DeKalb, Etowah, Franklin, Jackson, Lauderdale, Lawrence, Limestone, Madison, Marion, Marshall, Morgan, Winston</div>
+        <div id="flip2">Question: What is the largest city in North Alabama?</div>
+        <div id="panel2">Answer: Huntsville is the largest city in North Alabama.</div>
+        <div id="flip3">Question: What is the state nickname?</div>
+        <div id="panel3">Answer: The nickname for Alabama is 'Heart of Dixie'.</div>
+        <div id="flip4">Question: Why is Huntsville known for?</div>
+        <div id="panel4">Answer: The U. S. Space and Rocket Center. It isn't called the "Rocket City" for nothing!</div>
     </main>
     <footer class = "footer">
         <p>&copy; Copyright 2024 Al Morris, Robert Estes, and Morgan Nogradi</p>

@@ -109,12 +109,10 @@ main p {
     font-size: 175%;
 }
 #rightcouples {
-    display: inline-block;
     float: right;
     border-radius: 50%;
 }
 #leftcouples {
-    display: inline-block;
     float: left;
     border-radius: 50%;
 }

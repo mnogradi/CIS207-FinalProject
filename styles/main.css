@@ -108,6 +108,9 @@ main p {
     margin-left: 6.5em;
     font-size: 175%;
 }
+#boxheight {
+    height: 550px;
+}
 #mainroll {
     display: block;
     margin-left: auto;
@@ -121,13 +124,19 @@ main p {
 }
 #rightcouples {
     float: right;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 #leftcouples {
     float: left;
-    border-radius: 50%;
+    border-radius: 15%;
+    padding: 10px;
 }
-
+#headtext {
+    margin-bottom: -1em;
+}
+#text {
+    margin-top: 2em;
+}
 #singles-image {
     width:  275px;
     height: 275px;

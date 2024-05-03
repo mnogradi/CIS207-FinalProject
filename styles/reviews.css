@@ -27,14 +27,14 @@ header {
 #page-icon {
     font-family: "Aref Ruqaa Ink";
     font-size: 2.5em;
-    color:whitesmoke;
+    color: whitesmoke;
     text-shadow: 2px 2px 2px black;
 }
 #head-subtext {
     padding: 10px;
     font-size: 1.1em;
-    color:black;
-    margin-left: 20%
+    color: black;
+    margin-left: 20%;
 }
 a {
     color:  rgb(33, 154, 175);

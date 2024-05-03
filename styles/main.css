@@ -111,7 +111,14 @@ main p {
 #rightcouples {
     display: inline-block;
     float: right;
+    border-radius: 25%;
 }
+#leftcouples {
+    display: inline-block;
+    float: left;
+    border-radius: 50%;
+}
+
 #singles-image {
     width:  275px;
     height: 275px;

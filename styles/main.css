@@ -111,7 +111,7 @@ main p {
 #rightcouples {
     display: inline-block;
     float: right;
-    border-radius: 25%;
+    border-radius: 50%;
 }
 #leftcouples {
     display: inline-block;
